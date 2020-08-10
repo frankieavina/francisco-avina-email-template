@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" > 
+    <link href="email.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src='main.js'></script>
+</head>
+<body>
+        <!-- fluid container (not fixed width) then your row then columns -->
+        <div class="container-fluid">
+            <div class="row r1 ">
+    <!------------------- 1rd Column -------------------------------------->
+                <div class="col-sm-2 c1">
+                    <!--- contaierner grouping these two items -->
+                <div class="input-group">
+                    <div class="icon-wrapper">
+                        <i class="fa fa-picture-o" aria-hidden="true"></i>
+                    </div>
+                    <div id="welcome">Welcome, Brock!</div>
+                </div>    
+                <!--------------------------------------------->
+                    <button class="d-block compose" type="button">COMPOSE</button>
+                    <br></br>
+                    <div class="left-options" id="inbox"> Inbox(1)</div>
+                    <div class="left-options"> Tagged</div>
+                    <div class="left-options"> Important</div>
+                    <div class="left-options"> Sent Mail</div>
+                    <div class="left-options"> Drafts</div>
+                    <div class="left-options"> Trash</div>
+                </div>
+    <!------------------- 2rd Column -------------------------------------->
+                <div class="col-sm-3 c2">
+                    <input id="search-bar" placeholder="Search for emails">
+                    <br></br>
+                    <div class="dl-horizontal box-1">
+                        <div class="left">Linkedln</div>
+                        <div class="right">02:45pm</div>
+                        <div class="middle">You have a new connection request.</div>
+                        <!-- need to clear the floats all up so that it doesn't mess with future <div>-->
+                        <div class="clear"></div>
+                    </div>
+                    <br></br>
+                        <div class="dl-horizontal box-2">
+                            <div class="left">Michael Scott Daily Quotes</div>
+                            <div class="right">Jul 3, 2020</div>
+                            <div class="middle">I'm optimistic because everyday I get a little more desp...</div>
+                            <!-- need to clear the floats all up so that it doesn't mess with future <div>-->
+                            <div class="clear"></div>
+                        </div>
+                    <br></br>
+                    <div class="dl-horizontal box-3">
+                        <div class="left">LaMar Software</div>
+                        <div class="right">Feb 9, 2020</div>
+                        <div class="middle">Learn how you can give us money by calling (209)322 7...</div>
+                        <!-- need to clear the floats all up so that it doesn't mess with future <div>-->
+                        <div class="clear"></div>
+                    </div>
+                </div>
+    <!------------------- 3rd Column -------------------------------------->
+                <div class="col-sm-7 c3 ">
+                    <div class="from-to">To:taylor@lamarsoftware.io</div>
+                    <div class="from-to-2">From:re-reply@theofficenbc.com</div>
+                    <br></br>
+
+                    <h3 id="Title"> Michael Scott Daily Quotes</h3>
+                    <br></br>
+
+                    <p>"Friends joke with one another. 'Hey, you're poor.' 'Hey, your momma's dead.' That's what
+                        friends do."
+                        <br></br>
+                        "It's a good thing Russia doesn't exit anymore."
+                        <br></br>
+                        "You cheated on me? When I specifically asked you not to?"
+                        <br></br>
+                        "It just seems awfully mean. But sometimes, the ends justify the mean."
+                        <br></br>
+                        "Reverse psychology is an awesome tool. I don't know if you guys know about it, but, basically,
+                        you make someone think the opposite of what you believe, and that tricks them into doing 
+                        something stupid. Works like a charm."
+                        <br></br>
+                    </p>
+                    <br></br>
+                    <input id="textbox-1" type="text">
+                </div>
+            </div>
+        </div>
+</body>
+</html>
